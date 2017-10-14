@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*#box {*/
+    /*margin: 0 auto;*/
+    /*width: 1000px;*/
+    /*height: 550px;*/
+    /*position: relative;*/
+/*}*/
+
+/*ol,*/
+/*ul {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*list-style: none;*/
+/*}*/
+
+/*#list {*/
+    /*width: 1200px;*/
+    /*height: 626px;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+/*}*/
+
+/*#list li {*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*display: none;*/
+/*}*/
+
+/*ol#na li {*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+    /*border-radius: 50%;*/
+    /*background: orange;*/
+    /*float: left;*/
+    /*margin-left: 10px;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*line-height: 15px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*#na {*/
+    /*position: absolute;*/
+    /*left: 450px;*/
+    /*bottom: 5px;*/
+/*}*/
+
+/*ol#na .active {*/
+    /*background: #f00;*/
+/*}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#baiyechuang{
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+
+}
+#baiyechuang ul{
+    list-style: none;
+}
+#baiyechuang ul.tuul li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#baiyechuang ul.tuul li.no1{
+    display: block;
+}
+
+#baiyechuang .maoni{
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#baiyechuang .maoni div{
+    width: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-image: none;
+}
+#baiyechuang .maoni .no0{
+    right: 1100px;
+    background-position: 0 0;
+}
+#baiyechuang .maoni .no1{
+    right: 1000px;
+    background-position: -70px 0;
+}
+#baiyechuang .maoni .no2{
+    right: 900px;
+    background-position: -140px 0;
+}
+#baiyechuang .maoni .no3{
+    right: 800px;
+    background-position: -210px 0;
+}
+#baiyechuang .maoni .no4{
+    right: 700px;
+    background-position: -280px 0;
+}
+#baiyechuang .maoni .no5{
+    right: 600px;
+    background-position: -350px 0;
+}
+#baiyechuang .maoni .no6{
+    right: 500px;
+    background-position: -420px 0;
+}
+#baiyechuang .maoni .no7{
+    right: 400px;
+    background-position: -490px 0;
+}
+#baiyechuang .maoni .no8{
+    right: 300px;
+    background-position: -560px 0;
+}
+#baiyechuang .maoni .no9{
+    right: 200px;
+    background-position: -630px 0;
+}
+#baiyechuang .maoni .no10{
+    right: 100px;
+    background-position: -700px 0;
+}
+#baiyechuang .maoni .no11{
+    right: 0;
+    background-position: -770px 0;
+}
+/*------------------Oct----------------------*/
+
+.setday{
+    height: 250px;
+    background-color: #f0f1f3;
+    position: relative;
+}
+.jia{
+    width: 35%;
+    left: 0;
+
+
+
+}
+
+.lg{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    text-align: center;
+}
+.jia p.words {
+    margin-top: 32px;
+    font: 28px/88px simsun;
+    color:#000;
+}
+.jia.line{
+    margin-bottom: 12px;
+}
+.ilne{
+    width: 88px;
+    height: 1px;
+    border-top: 2px solid #898989;
+    margin:0 auto;
+}
+
+.jia p.xingzuo,.jia p.astro {
+    font:20px/32px simsun;
+    color:#666;
+}
+.mind{
+    width: 30%;
+    left: 35%;
+    background:url("../images/71.png") no-repeat center;
+}
+.mind img{
+    display: none;
+}
+.mind a.message{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    margin-top: 132px;
+    background-color: #c67c59;
+    color: #fff;
+    font:18px/40px simsun;
+}
+
+.date {
+    width: 35%;
+    right: 0;
+}
+
+.date p.month {
+    margin-top: 38px;
+    font:48px/95px "microsoft yahei";
+    color:#999;
+}
+.date p.yue{
+    font:24px/30px simsun;
+    color:#c67c59;
+}
+.date p.xingqi{
+    font:18px/34px "microsoft yahei";
+    color:#999;
+}
+/*.date p.xing,.date p.qi {*/
+    /*color:#999;*/
+/*}*/
+
+
+.part{
+    position: relative;
+    height: 100%;
+}
+.three{
+    height: 561px;
+}
+.one{
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+}
+.po{
+    position: relative;
+}
+
+.two {
+    /*width: 590px;*/
+    height: 100%;
+
+}
+.po{
+    position: relative;
+}
+.two img {
+    width: 100%;
+}
+/*.oo {*/
+    /*height: 561px;*/
+/*}*/
+/*.oo .po{*/
+    /*position: relative;*/
+/*}*/
+/*.oo img {*/
+    /*width: 100%;*/
+/*}*/
+
+.twop{
+    height: 595px;
+}
+
+.twop img{
+    width: 100%;
+}
+
+
+
+.wra {
+    margin:50px auto;
+    width: 1200px;
+    height: 560px;
+    overflow: hidden;
+    position: relative;
+    /*background: rgba(0, 0, 0, 0.3);*/
+
+}
+
+.wra img {
+    display: block;
+    border: 0;
+    z-index: 5;
+}
+
+/*.wrap .left {*/
+/*height: 100%;*/
+/*width: 50%;*/
+/*background: rgba(0, 0, 0, 0.3);*/
+/*position: absolute;*/
+/*left: 0px;*/
+/*top: 0;*/
+/*}*/
+.wra .righ {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    z-index: 10;
+}
+.wra p {
+    display: inline-block;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    text-align: center;
+    color: #c60aa4;
+    letter-spacing: 5px;
+    font-size: 20px;
+    display: none;
+    line-height: 50px;
+    z-index: 10;
+}
+.wra h4{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    color: #d122ff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 30px;
+    display: none;
+    z-index: 10;
+}
+.tripMas {
+    z-index: 10;
+}
